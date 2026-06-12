@@ -157,12 +157,12 @@ crossterm = "0.27"
 
 | ファイル       | 状態      |
 | -------------- | --------- |
-| Cargo.toml     | 🔲 未着手 |
-| src/main.rs    | 🔲 未着手 |
-| src/db.rs      | 🔲 未着手 |
-| src/matcher.rs | 🔲 未着手 |
-| src/ui.rs      | 🔲 未着手 |
-| src/shell.rs   | 🔲 未着手 |
+| Cargo.toml     | ✅ 完成   |
+| src/main.rs    | ✅ 完成   |
+| src/db.rs      | ✅ 完成   |
+| src/matcher.rs | ✅ 完成   |
+| src/ui.rs      | ✅ 完成   |
+| src/shell.rs   | ✅ 完成   |
 
 **推奨実装順:** db.rs → matcher.rs → main.rs(add/list) → ui.rs → main.rs(query) → shell.rs
 
